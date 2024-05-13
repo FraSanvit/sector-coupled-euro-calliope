@@ -57,19 +57,19 @@ parameters:
         efficiency:  # MWh / mio km 25th percentile efficiency of all countries in 2015 [JRC_IDEES]
             hdv:
                 diesel: 5140
-                electricity: 3248  # based on buses
+                electricity: 1560 # (old: 3248) | 2kWh/mile + 25% Tesla Semi Truck
             ldv:
                 diesel: 855
-                electricity: 480
+                electricity: 302 # (old: 480) | new: 242 + 25% Volkswagen ID. Buzz
             motorcycle:
                 diesel: 419
-                electricity: 200  # based on passenger car electrical efficiency scaled by relative diesel efficiency
+                electricity: 146  # (old: 200) | rescaled according to the diesel efficiency using the passenger car ratio
             bus:
                 diesel: 6057
-                electricity: 3248
+                electricity: 2100 # (old: 3248) | rescaled according to the diesel efficiency using the passenger car ratio
             passenger_car:
                 diesel: 675
-                electricity: 324
+                electricity: 235 # (old: 324) | new: 188 + 25% (https://tud365-my.sharepoint.com/:f:/g/personal/fsanvito_tudelft_nl/EhrEtu5-8AFLv_Nw68FbELkBdQ0jPh1PiI_eVcb8_R6w_A)
         ev_battery_capacity:  # MWh
             hdv: 0.2  # average from [EUCAR_2019]
             ldv: 0.1  # own assumption based on passenger cars from [EUCAR_2019]

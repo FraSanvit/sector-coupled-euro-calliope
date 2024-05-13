@@ -20,5 +20,6 @@ dependencies:
     - pycountry=19.8.18
     - pip=21.0.1
     - xlrd=1.2.0
+    - h5py=3.2.1
     - pip:
         - -e ../../lib[geo]

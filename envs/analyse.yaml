@@ -3,13 +3,3 @@ channels:
     - conda-forge
 dependencies:
     - python=3.8
-    - cartopy
-    - calliope=0.6.8
-    - geopandas
-    - matplotlib
-    - seaborn
-    - pip=19.3.1
-    - pycountry=19.8.18
-    - netcdf4
-    - pip:
-        - git+https://github.com/brynpickering/friendly-calliope.git@285e57f12b9ea2b6fd6f0d9eea0056a474f7948b
